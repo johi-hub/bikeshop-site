@@ -52,6 +52,7 @@ display: none;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    color: #fff;
 }
 `
 
@@ -76,7 +77,7 @@ export const NavLinks = styled(LinkScroll)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0 1 rem;
+    padding: 0 1rem;
     height: 100%;
     cursor: pointer;
 
