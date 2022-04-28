@@ -66,3 +66,7 @@ export const NavMenu = styled.ul`
         display: none;
     }
 `
+
+export const NavItem = styled.li`
+    height: 80px;
+`
