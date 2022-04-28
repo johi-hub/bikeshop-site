@@ -85,3 +85,12 @@ export const NavLinks = styled(LinkScroll)`
         border-bottom: 3px solid #01bf71;
     }
 `
+
+export const NavBtn = styled.nav`
+display: flex;
+align-items: center;
+
+@media screen and (max-width: 786px) {
+    display: none;
+}
+`
